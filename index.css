@@ -33,37 +33,42 @@ footer {
     background-color:#F9E7DC;
 }
 
-.button1 {
+.button {
+    border: 2px;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 5% 10%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5%;
+    min-width: 200px;
+}
+
+.button.button--orange {
     background-color: #FF764E;
-    border: 2px;
-    border-radius: 5px;
-    padding: 35px;
-    margin: 5% 10%;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 5%;
 }
 
-.button2 {
+.button.button--blue {
     background-color: #5ED3EB;
-    border: 2px;
-    border-radius: 5px;
-    padding: 20px; 
-    margin: 5% 10%;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 5%;
 }
 
-.button3 {
+.button.button--yellow {
     background-color: #FFCD69;
-    border: 2px;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 5% 10%;
+}
+
+.call-out {
+    background-color:#DDB9A3;
     color: white;
-    font-size: 20px;
-    letter-spacing: 5%;
+}
+
+.image-and-text {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.image-and-text img {
+    width: 100%;
 }
 
 header img {
