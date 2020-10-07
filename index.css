@@ -19,7 +19,19 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body {
+    font-family:'Roboto Mono', monospace;
+    background-color: #FFF;
+}
 
+h1 {
+    font-size: 50px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+footer {
+    background-color:#F9E7DC;
+}
 
 .button1 {
     background-color: #FF764E;
@@ -53,3 +65,9 @@ time, mark, audio, video {
     font-size: 20px;
     letter-spacing: 5%;
 }
+
+header img {
+    width: 20%;
+    margin-right: 35px;
+}
+
